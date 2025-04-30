@@ -1,2 +1,12 @@
-# GASCADE_ECIR2025
-This repository hosts the code and datasets associated with our paper, "GASCADE: Grouped Summarization of Adverse Drug Event for Enhanced Cancer Pharmacovigilance"
+This repository hosts the code and datasets associated with our paper, "GASCADE: Grouped Summarization of Adverse Drug Events for Enhanced Cancer Pharmacovigilance."
+
+Abstract:
+
+In the realm of cancer treatment, summarizing adverse drug events (ADEs) reported by patients using prescribed drugs is crucial for enhancing pharmacovigilance practices and improving drug-related decision-making. While the volume and complexity of pharmacovigilance data have increased, existing research in this field has predominantly focused on general diseases rather than specifically addressing cancer. This work introduces the task of grouped summarization of adverse drug events reported by multiple patients using the same drug for cancer treatment.
+To address the challenge of limited resources in cancer pharmacovigilance, we present the MultiLabeled Cancer Adverse Drug Reaction and Summarization (MCADRS) dataset. This dataset includes pharmacovigilance posts detailing patient concerns regarding drug efficacy and adverse effects, along with extracted labels for drug names, adverse drug events, severity, and adversity of reactions, as well as summaries of ADEs for each drug.
+Additionally, we propose the Grouping and Abstractive Summarization of Cancer Adverse Drug Events (GASCADE) framework, a novel pipeline that combines the information extraction capabilities of Large Language Models (LLMs) with the summarization power of the encoder-decoder T5 model. Our work is the first to apply alignment techniques, including advanced algorithms like Direct Preference Optimization, to encoder-decoder models using synthetic datasets for summarization tasks.
+Through extensive experiments, we demonstrate the superior performance of GASCADE across various metrics, validated through both automated assessments and human evaluations. This multitasking approach enhances drug-related decision-making and fosters a deeper understanding of patient concerns, paving the way for advancements in personalized and responsive cancer care. The code and dataset are made available here.
+
+Any resources, ideas, or methodologies derived from our work should be properly cited using the following reference:
+
+Jamil, S., Dabad, A., Reddy, B.A., Saha, S., Misra, R., Shakur, A.A. (2025). GASCADE: Grouped Summarization of Adverse Drug Event for Enhanced Cancer Pharmacovigilance. In: Hauff, C., et al. Advances in Information Retrieval. ECIR 2025. Lecture Notes in Computer Science, vol 15575. Springer, Cham. https://doi.org/10.1007/978-3-031-88717-8_17
